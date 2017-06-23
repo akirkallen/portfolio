@@ -1,0 +1,386 @@
+
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* INSTRUCTOR: Here is the filled out version of the float activity */
+
+body {
+font-size: 24px;
+line-height: 32px;
+color: #333;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 0px;
+ }
+
+#head {
+  float:left;
+  margin-left:250px;
+  padding: 10px;
+  font-family:'Georgia', Times, Times New Roman, serif;
+  font-size:26px;
+  color: #fff;
+  background: #4aaaa5;
+    margin-bottom: 0px;
+  }
+
+#left {
+  float:left;
+  margin-left:550px;
+  font-family:'Arial','helvetica Neue',Helvetica,sans-serif;
+  color: #777777;
+   font-size:14px; 
+  margin-bottom:0px;
+}
+
+#middle {
+  float:left;
+  font-family:'Arial','helvetica Neue',Helvetica,sans-serif;
+  color: #777777;
+  font-size:14px;
+    margin-left:20px;
+  margin-bottom:0px;
+}
+
+#right {
+   float:left;
+   font-family:'Arial','helvetica Neue',Helvetica,sans-serif;
+   color: #777777;
+   font-size:14px;
+     margin-left:20px;
+   margin-bottom:0px;
+}
+
+
+
+#left:hover {
+    color: #ff0000;
+  }
+
+#middle:hover {
+    color: #ff0000;
+  }
+
+
+#right:hover {
+    color: #ff0000;
+  }
+
+
+#full {
+  
+  height:500px;
+  overflow: auto;
+  margin:0px 150px;
+  clear: both;
+  border-top:5px solid #cccccc;
+  border-bottom:10px solid #4aaaa5;
+  background-image: url("../images/NEuip.jpg"); <!-- #cccccc; -->
+}
+
+#division {
+  padding: 20px;
+  margin-top: 20px;
+  margin-left:130px;
+  width:250px;
+  height:200px;
+  float:left;
+  background: #fff;
+  color:#4aaaa5;
+  
+}
+
+aside {
+  float: left;
+  margin-top:20px;
+  width: 600px;
+  height: 370px;
+  padding: 20px;
+  margin-left: 60px;
+  background: #fff;
+  font-size:14px;
+  line-height:20px;
+  border: 5px solid #eee;
+}
+
+
+.greenh {color:#4aaaa5;
+text-align:left;
+font-weight:bold;
+font-size:26px;
+}
+
+.greena {color:#4aaaa5;
+text-align:center;
+font-weight:bold;
+font-size:26px;
+}
+
+.plnole {color: #777777;
+text-align:left;
+font-family:'Arial','helvetica Neue',Helvetica,sans-serif;
+font-size:16px;
+ }
+
+
+label {
+  text-align:left;
+       display:block;
+  font-family:serif;
+  font-size:16px;
+  
+}
+ /* Style inputs with type="text", select elements and textareas */
+
+input, textarea {
+  padding-left:0px;
+       text-align:left;
+       display:block;
+       width:250px;
+      
+}
+
+h4  {
+  margin: 10px;
+  color:;
+  font-size:24px;
+}
+
+.widge {
+
+text-align:left;
+ margin:0px;
+   padding:0px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    width:50px;
+}
+
+input[type=submit] {
+        width:50px;
+}
+
+#tupac {
+float:left;
+width:230px;
+height:160px;
+}
+
+
+
+@media screen and (max-width:768px) {
+  
+
+#head {
+  float:left;
+  margin:0px;
+  padding: 10px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+  font-size:26px;
+  color: #fff;
+  background: #4aaaa5;
+    margin-bottom: 0px;
+  }
+
+#left {
+  float:left;
+   font-family:'Arial','helvetica Neue',Helvetica,sans-serif;
+  color: #777777;
+   font-size:14px; 
+   margin-left:200px;
+    padding: 12PX;
+      }
+
+#middle {
+  float:left;
+  font-family:'Arial','helvetica Neue',Helvetica,sans-serif;
+  color: #777777;
+  font-size:14px;
+      padding: 12PX;
+}
+
+#right {
+   float:left;
+   font-family:'Arial','helvetica Neue',Helvetica,sans-serif;
+   color: #777777;
+   font-size:14px;
+      padding: 12PX;
+}
+
+
+footer {
+  padding: 20px;
+  width:500;
+  margin:0px;
+  background: #666666;
+   font-family:'Arial','helvetica Neue',Helvetica,sans-serif;
+   color: #ffffff;
+   font-size:12px;
+}
+
+
+#full {
+  
+  height:500px;
+   margin:0px;
+    border-top:5px solid #cccccc;
+  border-bottom:10px solid #4aaaa5;
+  background-image: url("../images/NEuip.jpg"); <!-- #cccccc; -->
+}
+
+
+aside {
+  float: left;
+  <!--width: 500px;-->
+  height: 530px;
+  margin:20px;
+  padding: 20px;
+  background: #fff;
+  font-size:14px;
+  line-height:20px;
+  border: 5px solid #eee;
+}
+
+#tupac {
+float:left;
+width:230px;
+height:160px;
+padding-right:20px;
+}
+
+
+
+#division {
+  padding: 20px;
+  margin: 20px;
+  float:left;
+  background: #fff;
+  color:#4aaaa5;
+  width:600px;
+  }
+
+
+.greena {color:#4aaaa5;
+text-align:center;
+font-weight:bold;
+font-size:26px;
+}
+
+
+}
+
+@media screen and (max-width:640px) {
+  
+
+#head {
+ 
+  margin:0px 0px;
+  padding:20px;
+  width:100%;
+  height:60px;
+  font-family:'Georgia', Times, Times New Roman, serif;
+  font-size:26px;
+  color: #fff;
+   background: #4aaaa5;
+  
+  }
+
+#left {
+  float:left;
+   font-family:'Arial','helvetica Neue',Helvetica,sans-serif;
+  color: #777777;
+   font-size:14px; 
+    padding: 10PX;
+    width:33%;
+    margin:0px;
+}
+
+#middle {
+  float:left;
+  font-family:'Arial','helvetica Neue',Helvetica,sans-serif;
+  color: #777777;
+  font-size:14px;
+   width:33%;
+     margin:0px;
+    padding: 10PX;
+}
+
+#right {
+   float:left;
+   font-family:'Arial','helvetica Neue',Helvetica,sans-serif;
+   color: #777777;
+   font-size:14px;
+    width:33%;
+      margin:0px;
+    padding: 10PX;
+}
+
+
+footer {
+  padding: 20px;
+  width:500;
+  margin:0px;
+  background: #666666;
+   font-family:'Arial','helvetica Neue',Helvetica,sans-serif;
+   color: #ffffff;
+   font-size:12px;
+}
+
+
+#full {
+  
+  height:500px;
+ 
+  margin:0px;
+  
+  border-top:5px solid #cccccc;
+  border-bottom:10px solid #4aaaa5;
+  background-image: url("../images/NEuip.jpg"); <!-- #cccccc; -->
+}
+
+
+aside {
+  float: left;
+  width: 500px;
+  height: 530px;
+  margin:20px;
+  padding: 20px;
+  background: #fff;
+  font-size:14px;
+  line-height:20px;
+  border: 5px solid #eee;
+}
+
+#tupac {
+float:left;
+margin-left:10px;
+width:420px;
+height:250px;
+}
+
+
+#division {
+  padding: 20px;
+  margin-top: 20px;
+  margin-left:20px;
+  width:500px;
+  height:200px;
+  float:left;
+  background: #fff;
+  color:#4aaaa5;
+  
+}
+
+
+}
